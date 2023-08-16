@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@700;800&display=swap');
+/* Reset default margins and paddings */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Style the front page */
+.front-page{
+    /* display: none; */
+    width: 1520px;
+    height: 100vh;
+    background: linear-gradient(to right, #97ffc9, #aed9ff);
+}
+
+
+/* Style the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+.Hire{
+    background-color: black;
+    color:white;
+    display: inline-block;
+    padding: 8.5px 29px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Style the logo */
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    
+    margin-left: 5%;
+}
+
+/* Style the navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    color: black;
+}
+
+.nav-links li {
+    margin-right: 50px;
+}
+.nav-names{
+    color: black;
+}
+
+.nav-links a {
+    text-decoration: none;
+    transition: color 0.3s;  
+}
+
+.nav-links a:hover {
+    color: #f39c12;
+}
+.left-side{
+   
+    width: 40%;
+    height: auto;
+    margin-left:72px;
+    margin-top: 11%;
+}
+.hello-heading{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hello-me{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.multiple-text{
+    color: rgb(255, 184, 52);
+}
+/* style Hire_Me */
+.HireMe{
+    background-color: black;
+    color:white;
+    display: inline-block;
+    padding: 8.5px 29px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top:6%;
+}
+.Resume{
+  
+    align-content: center;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    display: inline-block;
+    padding: 8px 24.6px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top:6%;
+    margin-left: 3%;
+}
+.bx-download{ 
+margin-left: 3px;
+}
+/* logos style */
+.logos{
+    margin-top: 8%;
+}
+.logos a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    
+    border-radius: 50%;
+   
+    text-decoration: none;
+    transition: .5s ease;
+}
+.logos a:hover{
+    
+    color: #c9c9c9;
+    box-shadow: 0 0 20px  #000000;;
+}
+
+.online-1{
+    color: black;
+    font-size: 25.5px;
+}
+.online{
+    color: black;
+    font-size: 25.5px;
+    margin-left: 2.5%;
+}
+/* Home_content right-Side */
+.right-side{
+    display: flex;
+    position: absolute;
+    background-color: rgb(255, 184, 52);
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    right: 15%;
+    top: 20%;
+    z-index: 1;
+    overflow: hidden;
+    rotate: -4deg;
+
+}
+/* style a photo */
+.Photo{
+    position: absolute;
+    left: -28%;
+    top: -4%;
+    width: 714px;
+    height:fit-content;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.design-one{
+    position: absolute;
+    background-color: #394956;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    right: 14.5%;
+    top: 20%;
+    z-index: 0;
+}
+.design-two{
+    position: absolute;
+    background-color: #394956;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    right: 45.5%;
+    top: 21%;
+}
+.gap{
+    width: 1520px;
+    height: 6vh;
+    background: linear-gradient(to right, #d5ffe9, #d1e7fa);
+}
+/* Style Skills */
+.skills-info{
+    width: 1520px;
+    height: 100vh;
+    position: absolute;
+    border: 2px solid red;
+}
+.My-Skills-Heading{
+    margin-left: 5%;
+    margin-top: 4%;
+    
+    color: #969696;
+    font-family: 'Montserrat', sans-serif;
+}
+.line{
+    left: 12%;
+    width: 81%;
+    opacity: 80%;
+    border-radius: 2px;
+    position: relative;
+    border: 0.2px solid #969696;
+    
+}
+.skills-Here{
+    left: 5.2%;
+    top: 3%;
+    font-size: 13px;
+    color: #969696;
+    position: relative;
+    font-family: sans-serif;
+
+}
+.skills-container-one{
+    width: 500px;
+    height: fit-content;
+    top: 10%;
+    margin-left: 14%;
+    float: left;
+    display:table;
+    position:relative;
+}
+.bxl-html5{
+    font-size: 20px;
+    
+}
+.bxl-css3{
+    font-size: 20px;
+}
+.bxl-javascript{
+    font-size: 20px;
+}
+.bxl-react{
+    font-size: 20px;
+}
+.bxl-bootstrap{
+    font-size: 20px;
+}
+/* Skills right side style */
+.skills-container-two{
+    width: 477px;
+    height: 56%;
+    top: 4%;
+    margin-left: 7%;
+    float: left;
+    position: relative;
+}
+.Skills-box-one{
+    width: 32%;
+    height: 37%;
+    margin: 20px;
+    float: left;
+    color: black;
+    margin-left: 54px;
+    background-color: rgb(255, 255, 255);
+}
+.Skills-box-two{
+    width: 32%;
+    height: 37%;
+    float: left;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    
+    
+}
+.Skills-box-three{
+    width: 32%;
+    height: 37%;
+    float: left;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    margin-left: 54px;
+    background-color: rgb(255, 255, 255);
+}
+.Skills-box-four{
+    width: 32%;
+    height: 37%;
+    float: left;
+    color: #ffffff;
+    margin: 20px;
+    background-color: rgb(0, 0, 0);
+}
+.Skills-box-one, .Skills-box-two, .Skills-box-three, .Skills-box-four{
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -10px 15px 15px 0px rgb(193, 193, 193);
+}
+.bxl-php, .bxl-mongodb{
+    color: rgb(252 252 252);
+}
+.bxl-nodejs, .bxl-c-plus-plus{
+    color: rgb(0, 0, 0);
+}
+.Name-lang{
+    margin-top: 5%;
+    font-size: 12.5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.Skills-circle-black{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+}
+.Skills-circle-white{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+
