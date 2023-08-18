@@ -7,11 +7,11 @@
 /* Style the front page */
 .front-page{
     /* display: none; */
-    width: 1520px;
+    border: 2px solid red;
+    width: 100%;
     height: 100vh;
     background: linear-gradient(to right, #97ffc9, #aed9ff);
 }
-
 
 /* Style the navbar */
 .navbar {
@@ -137,14 +137,14 @@ margin-left: 3px;
 /* Home_content right-Side */
 .right-side{
     display: flex;
-    position: relative;
+    position: absolute;
     float: left;
     background-color: rgb(255, 184, 52);
     border-radius: 50%;
     width: 450px;
     height: 450px;
-    left: 7%;
-    top: 8%;
+    right: 16%;
+    top: 20%;
     z-index: 1;
     overflow: hidden;
     rotate: -4deg;
@@ -156,46 +156,45 @@ margin-left: 3px;
     left: -28%;
     top: -4%;
     width: 714px;
-    height: 470px;
+    height:470px;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
 .design-one{
-    position: relative;
+    position: absolute;
     background-color: #394956;
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    left: 73%;
-    top: 8%;
+    right: 17%;
+    top: 17%;
     z-index: 0;
 }
 .design-two{
-    position: relative;
+   position: absolute;
     background-color: #394956;
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    left: 48%;
-    bottom: 11%;
+    left: 49%;
+    top: 24%;
 }
 .gap{
-    width: 1520px;
+    width: 100%;
     height: 6vh;
     background: linear-gradient(to right, #d5ffe9, #d1e7fa);
 }
-
 /* Style Skills */
-
 .skills-info{
-    width: 1520px;
-    height: 100vh;
-    position: relative;
+    border: 2px solid red;
+    width: 100%;
+    height: 100vh; 
 }
+/* ............ */
 .My-Skills-Heading{
+    width: fit-content;
     margin-left: 5%;
     margin-top: 4%;
-    
     color: #969696;
     font-family: 'Montserrat', sans-serif;
 }
@@ -209,6 +208,7 @@ margin-left: 3px;
     
 }
 .skills-Here{
+    width: fit-content;
     left: 5.2%;
     top: 3%;
     font-size: 13px;
@@ -242,6 +242,7 @@ margin-left: 3px;
 .bxl-bootstrap{
     font-size: 20px;
 }
+/* ............... */
 /* Skills right side style */
 .skills-container-two{
     width: 477px;
@@ -331,10 +332,27 @@ margin-left: 3px;
 }
 /* End skills */
 
+
+/* style work info */
 .Works-info-container{
-    width: 1520px;
+    width: 100%;
     height: 100vh;
-    position:static;
+    position:absolute;
     border: 2px solid red;
 }
-
+.info-img-container{
+    
+    width: 80%;
+    height: fit-content;
+    top: 10%;
+    left: 10.4%;
+    overflow: auto;
+ 
+    position: relative;
+}
+.card{
+   
+    /* padding: 2%; */
+    top: 7%;
+    float: left;
+}
