@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -64,9 +65,9 @@
 <!-- .........Gap End.............. -->
 <!-- second page Skills container -->
 <div class="skills-info"> 
-    <h2 class="My-Skills-Heading">My Skills</h2><div class="line"></div>
-    <h4 class="skills-Here">Here are my skills</h4><br>
-    <div class="skills-container-one">
+    <h2 class="My-Skills-Heading" data-aos="zoom-in-up">My Skills</h2><div class="line" data-aos="zoom-in-up"></div>
+    <h4 class="skills-Here" data-aos="zoom-in-up">Here are my skills</h4><br>
+    <div class="skills-container-one" data-aos="fade-up">
         <i class='bx bxl-html5'> HTML</i>
         <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
             <div class="progress-bar bg-warning" style="width: 80%"></div>
@@ -90,40 +91,40 @@
           <!-- ........ -->
     </div>
     <div class="skills-container-two">
-        <div class="Skills-box-one">
+        <div class="Skills-box-one" data-aos="zoom-in">
             <div class="Skills-circle-black"><i class='bx bxl-php'></i></div><p class="Name-lang">php</p>
         </div> 
-        <div class="Skills-box-two">
+        <div class="Skills-box-two" data-aos="zoom-in">
             <div class="Skills-circle-white"><i class='bx bxl-nodejs'></i></div><p class="Name-lang">Node js</p>
         </div>
-        <div class="Skills-box-three">
+        <div class="Skills-box-three" data-aos="zoom-in">
             <div class="Skills-circle-black"><i class='bx bxl-mongodb'></i></div><p class="Name-lang">MongoDB</p>
         </div> 
-        <div class="Skills-box-four">
+        <div class="Skills-box-four" data-aos="zoom-in">
             <div class="Skills-circle-white"><i class='bx bxl-c-plus-plus' ></i></div><p class="Name-lang">C++</p>
         </div>
     </div>  
 </div>
 <!-- Skills container end -->
 <!-- Works container -->
-<div class="Works-info-container">
+<div class="Works-info-container" data-aos="zoom-in">
     <h2 class="My-Skills-Heading">Works</h2><div class="line"></div>
     <h4 class="skills-Here">Here are some of my works</h4><br>
     <div class="info-img-container">
-      <div class="card card-one" style="width: 25rem;">
+      <div class="card card-one" style="width: 25rem;"  data-aos="zoom-in">
         <img src="cyber.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Cyber Security</h5>
           <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
         </div>
       </div>
-      <div class="card card-two" style="width: 25rem;">
+      <div class="card card-two" style="width: 25rem;" data-aos="zoom-in">
         <img src="love.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Love Score</h5>
         </div>
       </div>
-      <div class="card card-three" style="width: 25rem;">
+      <div class="card card-three" style="width: 25rem;" data-aos="zoom-in">
         <img src="port.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Portfolio</h5>
@@ -134,13 +135,13 @@
 
 <!-- Contact-Info_Start -->
 <div class="Contact-info-container">
-  <h2 class="My-Skills-Heading">Contact</h2><div class="line"></div>
+  <h2 class="My-Skills-Heading" data-aos="zoom-in-up">Contact</h2><div class="line" data-aos="zoom-in-up"></div>
   <div class="Contact-Info-Left-Side">
-    <h1 class="You-Need">You Need</h1>
+    <h1 class="You-Need" data-aos="zoom-in">You Need</h1>
     <p class="You-Need-Info">Creating a website <br> leave a request</p> <i class='bx bx-right-arrow-alt'></i>
   </div> 
   <!-- login side -->
-  <div class="login-container">
+  <div class="login-container" data-aos="zoom-in">
     <form class="login-form">
       <input type="email" placeholder="eg example@gmail.com" required>
       <input type="text" placeholder="eg sagar masale" required>
@@ -150,9 +151,9 @@
   </div>
 
   <div class="End-Container">
-    <div class="End-Column">
-    <h1 class="You-Need Lets-Talk">Let's Talk</h1>
-    <div class="Talk-Icons">
+    <div class="End-Column" >
+    <h1 class="You-Need Lets-Talk" data-aos="zoom-out">Let's Talk</h1>
+    <div class="Talk-Icons" >
       <i class='bx bxl-telegram'><br><p class="Icon-Names">Telegram</p></i>
       <i class='bx bxl-whatsapp'><br><p class="Icon-Names">Whatsapp</p></i>
       <i class='bx bxl-instagram-alt'><br><p class="Icon-Names">Instagram</p></i>
@@ -177,6 +178,15 @@
 
 <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
 <script src="script.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init(
+    {
+      offset: 250,
+      duration: 700,
+    }
+  );
+</script>
     
 </body>
 </html>
