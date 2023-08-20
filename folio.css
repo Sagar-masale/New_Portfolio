@@ -6,7 +6,7 @@
 }
 /* Style the front page */
 .front-page{
-/*     display: none; */
+    /* display: none; */
     border: 2px solid red;
     width: 100%;
     height: 100vh;
@@ -180,14 +180,14 @@ margin-left: 3px;
     top: 24%;
 }
 .gap{
-/*     display: none; */
+    /* display: none; */
     width: 100%;
     height: 6vh;
     background: linear-gradient(to right, #d5ffe9, #d1e7fa);
 }
 /* Style Skills */
 .skills-info{
-/*     display: none; */
+    /* display: none; */
     position: relative;
     border: 2px solid red;
     width: 100%;
@@ -338,7 +338,7 @@ margin-left: 3px;
 
 /* style work info */
 .Works-info-container{
-/*     display: none; */
+    /* display: none; */
     width: 100%;
     height: 100vh;
     position:relative;
@@ -389,8 +389,138 @@ margin-left: 3px;
 
 /* Contact style */
 .Contact-info-container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: relative;
     width: 100%;
     height: 100vh; 
 }
+.Contact-Info-Left-Side{
+        top: 12%;
+        left: 14%;
+        position: relative;
+        /* border: 2px solid rgb(0, 89, 255); */
+        width: 35%;
+        height: 20%;
+}
+.You-Need{
+    font-size: 3.8rem;
+}
+.bx-right-arrow-alt{
+    font-size: 40px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    color: rgb(255, 179, 0);
+    position: absolute;
+    right: 26%;
+    top: 43%;
+}
+/* login style */
+
+
+.login-container {
+    bottom: 19%;
+    left: 50%;
+    position: relative;
+    /* border: 2px solid red; */
+    width: 38%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); */
+  }
+  
+  .login-container h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 1%;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(71, 71, 71, 0.281); 
+    border-radius: 5px;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 1.2%;
+    background-color: rgb(255, 179, 0);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-form button:hover {
+    background-color:rgb(255, 197, 60);
+  }
+  .bxs-send{
+    rotate: -50deg;
+  }
+  .textarea-info{
+    margin-top: 1%;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(72, 72, 72, 0.281); 
+    
+    
+  }
+  .End-Container{
+    /* border: 2px solid rgb(170, 255, 0); */
+    width: 100%;
+    height: 45vh;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(255, 200, 0);
+  }
+  .Lets-Talk{
+    font-size: 3rem;
+    margin-top:10%;
+  }
+  .End-Column{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .Talk-Icons{
+    /* border: 2px solid rgb(255, 0, 43); */
+    width: auto;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 20%;
+  }
+  
+  .bxl-telegram,.bxl-instagram-alt{
+    padding: 5%;
+    font-size: 28px;
+  }
+  .bxl-whatsapp{
+    padding: 5%;
+    margin: 5%;
+    font-size: 28px;
+  }
+  .bxl-telegram{
+    margin-right: 20%;
+  }
+  .bxl-instagram-alt{
+    margin-left: 20%;
+  }
+  .Icon-Names{
+    color: rgba(255, 255, 255, 0.662);
+    font-size: 13px;
+  }
+  
