@@ -4,6 +4,28 @@
     margin: 0;
     padding: 0;
 }
+/* Keyframes animations */
+
+@keyframes slideBottom {
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideTop {
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
 /* Style the front page */
 .front-page{
     /* display: none; */
@@ -19,6 +41,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 12px;
+    animation: slideBottom 1s ease forwards;
 }
 .Hire{
     background-color: black;
@@ -71,6 +94,7 @@
 .hello-heading{
     font-size: 35px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: slideTop 1s ease forwards;
 }
 .hello-me{
     font-size: 25px;
@@ -88,6 +112,12 @@
     text-decoration: none;
     border-radius: 5px;
     margin-top:6%;
+    animation: slideTop 1s ease forwards;
+}
+.HireMe:hover{
+    color: black;
+    background-color: white;
+    transition: .8s;
 }
 .Resume{
   
@@ -100,6 +130,12 @@
     border-radius: 5px;
     margin-top:6%;
     margin-left: 3%;
+    animation: slideTop 1.2s ease forwards;
+}
+.Resume:hover{
+    transition: .8s;
+    color: white;
+    background-color: black;
 }
 .bx-download{ 
 margin-left: 3px;
@@ -118,6 +154,7 @@ margin-left: 3px;
    
     text-decoration: none;
     transition: .5s ease;
+    animation: slideTop 1s ease forwards;
 }
 .logos a:hover{
     
@@ -148,6 +185,7 @@ margin-left: 3px;
     z-index: 1;
     overflow: hidden;
     rotate: -4deg;
+    animation: slideTop 1s ease forwards;
 
 }
 /* style a photo */
