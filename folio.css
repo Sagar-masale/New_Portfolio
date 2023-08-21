@@ -26,10 +26,20 @@
         opacity: 1;
     }
 }
+/* @keyframes slideIn {
+    0%{
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+} */
 /* Style the front page */
 .front-page{
     /* display: none; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
     height: 100vh;
     background: linear-gradient(to right, #97ffc9, #aed9ff);
@@ -218,24 +228,25 @@ margin-left: 3px;
     top: 24%;
 }
 .gap{
-    /* display: none; */
+    display: none;
     width: 100%;
     height: 6vh;
     background: linear-gradient(to right, #d5ffe9, #d1e7fa);
 }
 /* Style Skills */
 .skills-info{
-    /* display: none; */
+    display: none;
     position: relative;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    border-bottom: 1px solid gray;
     width: 100%;
-    height: 100vh; 
+    height: 90vh; 
 }
 /* ............ */
 .My-Skills-Heading{
     width: fit-content;
     margin-left: 5%;
-    margin-top: 4%;
+    margin-top: 5%;
     color: #969696;
     font-family: 'Montserrat', sans-serif;
 }
@@ -293,7 +304,7 @@ margin-left: 3px;
     float: left;
     position: relative;
 }
-.Skills-box-one{
+.Skills-box-one,.Skills-box-three{
     width: 32%;
     height: 37%;
     margin: 20px;
@@ -302,17 +313,22 @@ margin-left: 3px;
     margin-left: 54px;
     background-color: rgb(255, 255, 255);
 }
-.Skills-box-two{
+.Skills-box-one:hover , .Skills-box-three:hover{
+    transition: .3s;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+.Skills-box-two,.Skills-box-four{
     width: 32%;
     height: 37%;
     float: left;
     margin: 20px;
     color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    
-    
+    background-color: rgb(0, 0, 0); 
 }
-.Skills-box-three{
+.Skills-box-two:hover , .Skills-box-four:hover{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+/* .Skills-box-three{
     width: 32%;
     height: 37%;
     float: left;
@@ -320,15 +336,15 @@ margin-left: 3px;
     margin: 20px;
     margin-left: 54px;
     background-color: rgb(255, 255, 255);
-}
-.Skills-box-four{
+} */
+/* .Skills-box-four{
     width: 32%;
     height: 37%;
     float: left;
     color: #ffffff;
     margin: 20px;
     background-color: rgb(0, 0, 0);
-}
+} */
 .Skills-box-one, .Skills-box-two, .Skills-box-three, .Skills-box-four{
     font-size: 36px;
     display: flex;
@@ -376,10 +392,11 @@ margin-left: 3px;
 
 /* style work info */
 .Works-info-container{
-    /* display: none; */
+    display: none;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     position:relative;
+    border-bottom: 1px solid gray;
 }
 .info-img-container{
     width: 80%;
@@ -394,7 +411,8 @@ margin-left: 3px;
     font-size: 20px;
     margin-top: 2%;
     padding: 2% 2% 0 2%;
-    transition: .2s;
+    transition: .3s;
+    /* animation: slideIn 1s ease forwards; */
 }
 .card:hover{
     padding: 1% 1% 0 1%;
@@ -428,9 +446,10 @@ margin-left: 3px;
 /* Contact style */
 .Contact-info-container{
     /* border: 2px solid red; */
+    display: none;
     position: relative;
     width: 100%;
-    height: 100vh; 
+    height: 90vh; 
 }
 .Contact-Info-Left-Side{
         top: 12%;
@@ -514,7 +533,7 @@ margin-left: 3px;
   .End-Container{
     /* border: 2px solid rgb(170, 255, 0); */
     width: 100%;
-    height: 45vh;
+    height: 38vh;
     bottom: 0;
     position: absolute;
     display: flex;
@@ -542,7 +561,7 @@ margin-left: 3px;
     top: 20%;
   }
   
-  .bxl-telegram,.bxl-instagram-alt{
+  .bxl-telegram,.bxl-instagram-alt-two{
     padding: 5%;
     font-size: 28px;
   }
@@ -554,7 +573,7 @@ margin-left: 3px;
   .bxl-telegram{
     margin-right: 20%;
   }
-  .bxl-instagram-alt{
+  .bxl-instagram-alt-two{
     margin-left: 20%;
   }
   .Icon-Names{
