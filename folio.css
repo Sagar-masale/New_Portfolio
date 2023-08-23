@@ -38,7 +38,7 @@
 } */
 /* Style the front page */
 .front-page{
-/*     display: none; */
+    display: none;
     /* border: 2px solid red; */
     width: 100%;
     height: 100vh;
@@ -235,7 +235,7 @@ margin-left: 3px;
 }
 /* Style Skills */
 .skills-info{
-  /*     display: none; */
+   /*     display: none; */
     position: relative;
     /* border: 2px solid red; */
     border-bottom: 1px solid gray;
@@ -474,7 +474,7 @@ margin-left: 3px;
 /* Contact style */
 .Contact-info-container{
     /* border: 2px solid red; */
-  /*     display: none; */
+/*     display: none; */
     position: relative;
     width: 100%;
     height: 90vh; 
