@@ -107,12 +107,14 @@
 </div>
 <!-- Skills container end -->
 <!-- Works container -->
-<div class="Works-info-container" data-aos="zoom-in">
+<div class="Works-info-container" data-aos="zoom-in" >
+  
     <h2 class="My-Skills-Heading">Works</h2><div class="line"></div>
     <h4 class="skills-Here">Here are some of my works</h4><br>
+    <!-- <a href="#" class="click"><i class='bx bx-right-arrow-alt right-arrow-works'></i></a> -->
     <div class="info-img-container"  data-aos="zoom-in">
       <a href="https://sagar-masale.github.io/Cyber_Security/">
-        <div class="card card-one" style="width: 25rem;" >
+        <div class="card card-one" >
           <img src="cyber.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Cyber Security</h5>
@@ -123,7 +125,7 @@
       </a>
   
       <a href="https://sagar-masale.github.io/chake_love_score/">
-        <div class="card card-two" style="width: 25rem;">
+        <div class="card card-two">
           <img src="love.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Love Score</h5>
@@ -131,14 +133,47 @@
         </div>
       </a>
       <a href="https://sagar-masale.github.io/folio/">
-        <div class="card card-three" style="width: 25rem;" >
+        <div class="card card-three" >
           <img src="port.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Portfolio</h5>
           </div>
         </div>
       </a>
-</div></div>
+      
+</div>
+<div class="info-img-container-two"  data-aos="zoom-in">
+  <a href="#life">
+    <div class="card card-four">
+      <img src="life.jpg" class="card-img-top" alt="..." >
+      <div class="card-body">
+        <h5 class="card-title">Time Of Life</h5>
+        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+      </div>
+    </div>
+
+  </a>
+
+  <a href="#Dice">
+    <div class="card card-five">
+      <img src="Dice.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Dice Game</h5>
+      </div>
+    </div>
+  </a>
+  <a href="#Cal">
+    <div class="card card-six"  >
+      <img src="calculator.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Calculator</h5>
+      </div>
+    </div>
+  </a>
+  
+</div>
+
+</div>
 <!-- works page end -->
 
 <!-- Contact-Info_Start -->
@@ -146,7 +181,7 @@
   <h2 class="My-Skills-Heading" data-aos="zoom-in-up">Contact</h2><div class="line" data-aos="zoom-in-up"></div>
   <div class="Contact-Info-Left-Side">
     <h1 class="You-Need" data-aos="zoom-in">You Need</h1>
-    <p class="You-Need-Info">Creating a website <br> leave a request</p> <i class='bx bx-right-arrow-alt'></i>
+    <p class="You-Need-Info">Creating a website <br> leave a request</p> <i class='bx bx-right-arrow-alt right-arrow-end'></i>
   </div> 
   <!-- login side -->
   <div class="login-container" data-aos="zoom-in">
@@ -170,6 +205,14 @@
     
   </div>
 </div>
+<script>
+var clickButton=document.querySelector(".click");
+var hoverIten=document.querySelector(".info-img-container");
+clickButton.addEventListener('click',()=>{
+  hoverIten.classList.toggle('active')
+})
+</script>
+
 <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
 <script src="script.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
