@@ -38,7 +38,7 @@
 } */
 /* Style the front page */
 .front-page{
-    /* display: none; */
+/*     display: none; */
     /* border: 2px solid red; */
     width: 100%;
     height: 100vh;
@@ -228,14 +228,14 @@ margin-left: 3px;
     top: 24%;
 }
 .gap{
-/*     display: none; */
+ /*     display: none; */
     width: 100%;
     height: 6vh;
     background: linear-gradient(to right, #d5ffe9, #d1e7fa);
 }
 /* Style Skills */
 .skills-info{
-/*     display: none; */
+  /*     display: none; */
     position: relative;
     /* border: 2px solid red; */
     border-bottom: 1px solid gray;
@@ -392,20 +392,39 @@ margin-left: 3px;
 
 /* style work info */
 .Works-info-container{
-/*     display: none; */
+    /* display: none; */
     width: 100%;
-    height: 90vh;
+    height: 130vh;
     position:relative;
     border-bottom: 1px solid gray;
+    transition: 1.5s;
+}
+.Works-info-container.active{
+    transition: 1.5s;
+    display: none;
 }
 .info-img-container{
+    /* border: 2px solid red; */
     width: 80%;
-    height: 50%;
+    height: 35%;
     top: 10%;
     left: 10.4%;
     position: relative;
+    transition: 2s;
 }
+.info-img-container-two{
+    /* border: 2px solid red; */
+    width: 80%;
+    height: 35%;
+    top: 10%;
+    left: 10.4%;
+    position: relative;
+    transition: 2s;
+}
+
+
 .card{
+    width: 25rem;
     top: 7%;
     float: left;
     font-size: 20px;
@@ -438,6 +457,15 @@ margin-left: 3px;
     background-size: cover;
   
 }
+.card-four{
+    background: linear-gradient(to right, #ff96cc, #797378);
+}
+.card-five{
+    background: linear-gradient(to right, #ffffff, #797378);
+}
+.card-six{
+    background: linear-gradient(to right, #ffffff, #ffffff, #ffc49a);
+}
 .card-title{
     font-size: 20px;
 }
@@ -446,7 +474,7 @@ margin-left: 3px;
 /* Contact style */
 .Contact-info-container{
     /* border: 2px solid red; */
-/*     display: none; */
+  /*     display: none; */
     position: relative;
     width: 100%;
     height: 90vh; 
@@ -462,7 +490,7 @@ margin-left: 3px;
 .You-Need{
     font-size: 3.8rem;
 }
-.bx-right-arrow-alt{
+.right-arrow-end{
     font-size: 40px;
     border-radius: 3px;
     border: 1px solid gray;
