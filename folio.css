@@ -38,10 +38,11 @@
 } */
 /* Style the front page */
 .front-page{
-    display: none;
-    /* border: 2px solid red; */
+    /* display: none; */
+    border: 2px solid red;
     width: 100%;
     height: 100vh;
+    overflow: hidden;
     background: linear-gradient(to right, #97ffc9, #aed9ff);
 }
 
@@ -72,6 +73,7 @@
 
 /* Style the navigation links */
 .nav-links {
+    border: 2px solid red;
     list-style: none;
     display: flex;
     align-items: center;
@@ -90,11 +92,17 @@
     text-decoration: none;
     transition: color 0.3s;  
 }
+.hamburger{
+    display: none;
+
+}
 
 .nav-links a:hover {
     color: #f39c12;
 }
 .left-side{
+    position: absolute;
+    border: 2px solid black;
     float: left;
     width: 40%;
     height: auto;
@@ -184,14 +192,14 @@ margin-left: 3px;
 /* Home_content right-Side */
 .right-side{
     display: flex;
-    position: absolute;
+    position: relative;
     float: left;
     background-color: rgb(255, 184, 52);
     border-radius: 50%;
     width: 450px;
     height: 450px;
-    right: 16%;
-    top: 20%;
+    left: 54%;
+    top: 8%;
     z-index: 1;
     overflow: hidden;
     rotate: -4deg;
@@ -228,14 +236,14 @@ margin-left: 3px;
     top: 24%;
 }
 .gap{
- /*     display: none; */
+    display: none;
     width: 100%;
     height: 6vh;
     background: linear-gradient(to right, #d5ffe9, #d1e7fa);
 }
 /* Style Skills */
 .skills-info{
-   /*     display: none; */
+    display: none;
     position: relative;
     /* border: 2px solid red; */
     border-bottom: 1px solid gray;
@@ -392,7 +400,7 @@ margin-left: 3px;
 
 /* style work info */
 .Works-info-container{
-    /* display: none; */
+    display: none;
     width: 100%;
     height: 130vh;
     position:relative;
@@ -458,7 +466,7 @@ margin-left: 3px;
   
 }
 .card-four{
-    background: linear-gradient(to right, #ff96cc, #797378);
+    background: linear-gradient(to right, #ffabd7, #959194);
 }
 .card-five{
     background: linear-gradient(to right, #ffffff, #797378);
@@ -474,7 +482,7 @@ margin-left: 3px;
 /* Contact style */
 .Contact-info-container{
     /* border: 2px solid red; */
-/*     display: none; */
+    display: none;
     position: relative;
     width: 100%;
     height: 90vh; 
