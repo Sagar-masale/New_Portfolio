@@ -102,7 +102,7 @@
 }
 .left-side{
     position: absolute;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     float: left;
     width: 40%;
     height: auto;
@@ -236,14 +236,16 @@ margin-left: 3px;
     top: 24%;
 }
 .gap{
-    display: none;
+    overflow: hidden;
+    /* display: none; */
     width: 100%;
     height: 6vh;
     background: linear-gradient(to right, #d5ffe9, #d1e7fa);
 }
 /* Style Skills */
 .skills-info{
-    display: none;
+    overflow: hidden;
+    /* display: none; */
     position: relative;
     /* border: 2px solid red; */
     border-bottom: 1px solid gray;
@@ -278,7 +280,7 @@ margin-left: 3px;
 
 }
 .skills-container-one{
-    width: 500px;
+    width: 30%;
     height: fit-content;
     top: 10%;
     margin-left: 14%;
@@ -304,8 +306,8 @@ margin-left: 3px;
 }
 /* ............... */
 /* Skills right side style */
-.skills-container-two{
-    width: 477px;
+.skills-container-two {
+    width: fit-content;
     height: 56%;
     top: 4%;
     margin-left: 7%;
@@ -400,23 +402,21 @@ margin-left: 3px;
 
 /* style work info */
 .Works-info-container{
-    display: none;
+    /* display: none; */
+    overflow: auto;
     width: 100%;
     height: 130vh;
     position:relative;
     border-bottom: 1px solid gray;
     transition: 1.5s;
 }
-.Works-info-container.active{
-    transition: 1.5s;
-    display: none;
-}
+
 .info-img-container{
     /* border: 2px solid red; */
     width: 80%;
     height: 35%;
-    top: 10%;
-    left: 10.4%;
+    top: 4%;
+    left: 11.4%;
     position: relative;
     transition: 2s;
 }
@@ -424,15 +424,15 @@ margin-left: 3px;
     /* border: 2px solid red; */
     width: 80%;
     height: 35%;
-    top: 10%;
-    left: 10.4%;
+    top: 4%;
+    left: 11.4%;
     position: relative;
     transition: 2s;
 }
 
 
 .card{
-    width: 25rem;
+    width: 33%;
     top: 7%;
     float: left;
     font-size: 20px;
@@ -482,7 +482,7 @@ margin-left: 3px;
 /* Contact style */
 .Contact-info-container{
     /* border: 2px solid red; */
-    display: none;
+    /* display: none; */
     position: relative;
     width: 100%;
     height: 90vh; 
@@ -559,6 +559,7 @@ margin-left: 3px;
   .textarea-info{
     margin-top: 1%;
     width: 100%;
+    height: 90px;
     border: 1px solid #ccc;
     border-radius: 5px;
     outline: none;
