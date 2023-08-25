@@ -20,7 +20,7 @@
         <!-- nav-bar -->
     <nav class="navbar">
         <div class="logo">Sagar Masale.</div>
-        <ul class="nav-links">
+        <ul class="nav-links ">
             <li><a href="#home" class="nav-names">HOME</a></li>
             <li><a href="#about" class="nav-names">SKILLS</a></li>
             <li><a href="#portfolio" class="nav-names">WORKS</a></li>
@@ -37,11 +37,12 @@
 
     <!-- nav-End -->
     <!-- Home-Content-Left-Side -->
+    <div class="column-first-container">
     <div class="home-content left-side">
       
         <h3 class="hello-heading">Hello, I'm Sagar Masale</h3><br>
         <h3 class="hello-me">And I'm a <span class="multiple-text"></span></h3><br/>
-        <p>This is my official portfolio website to <br>showcase my all works related to web development.</p>
+        <p class="hello-info">This is my official portfolio website to <br>showcase my all works related to web development.</p>
        
         <a href="#" class="HireMe">Hire Me </a>
         <a href="#" class="Resume">Resume<i class='bx bx-download'></i> </a><br/>
@@ -62,6 +63,7 @@
     <div class="home-content right-side">
         <img src="My_photo.png" class="Photo">
     </div>
+  </div>
     <!-- right side side show -->
     <div class="design-one"></div>
     <div class="design-two"></div>    
@@ -76,23 +78,23 @@
     <h4 class="skills-Here" data-aos="zoom-in-up">Here are my skills</h4><br>
     <div class="skills-container-one" data-aos="fade-up">
         <i class='bx bxl-html5'> HTML</i>
-        <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress" style="height: .9rem;" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
             <div class="progress-bar bg-warning" style="width: 80%"></div>
           </div> <br>
           <i class='bx bxl-css3'> CSS</i>
-          <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress"style="height: .9rem;"  role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
             <div class="progress-bar bg-warning" style="width: 65%"></div>
           </div> <br>
           <i class='bx bxl-javascript'> Javascript</i>
-          <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress"style="height: .9rem;"  role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
             <div class="progress-bar bg-warning" style="width: 60%"></div>
           </div> <br>
           <i class='bx bxl-react'> React js</i>
-          <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress"style="height: .9rem;"  role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
             <div class="progress-bar bg-warning" style="width: 10%"></div>
           </div><br>
           <i class='bx bxl-bootstrap' > Bootstrap</i>
-          <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress"style="height: .9rem;"  role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
             <div class="progress-bar bg-warning" style="width: 70%"></div>
           </div>
           <!-- ........ -->
@@ -195,14 +197,14 @@
     <form class="login-form">
       <input type="email" placeholder="eg example@gmail.com" required>
       <input type="text" placeholder="eg sagar masale" required>
-      <textarea name="message" placeholder="Type your message here.." required min="5"  autocomplete="off"  style="height: 114px;" class="textarea-info"></textarea>
+      <textarea class="textarea-info" name="message" placeholder="Type your message here.." required min="5"  autocomplete="off"   ></textarea>
       <button type="submit">Send <i class='bx bxs-send' ></i></button>
     </form>
   </div>
 
   <div class="End-Container">
     <div class="End-Column" >
-    <h1 class="You-Need Lets-Talk" data-aos="zoom-out">Let's Talk</h1>
+    <h1 class="You-Need Lets-Talk" >Let's Talk</h1>
     <div class="Talk-Icons" >
       <i class='bx bxl-telegram'><br><p class="Icon-Names">Telegram</p></i>
       <i class='bx bxl-whatsapp'><br><p class="Icon-Names">Whatsapp</p></i>
@@ -225,10 +227,10 @@
 
 
 <script>
-var clickButton=document.querySelector(".click");
-var hoverIten=document.querySelector(".info-img-container");
-clickButton.addEventListener('click',()=>{
-  hoverIten.classList.toggle('active')
+var clickHam=document.querySelector(".hamburger");
+var hoverNav =document.querySelector(".nav-links");
+clickHam.addEventListener('click',()=>{
+  hoverNav.classList.toggle('active')
 })
 </script>
 
