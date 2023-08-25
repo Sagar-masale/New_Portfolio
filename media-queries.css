@@ -97,6 +97,9 @@
         font-size: 18px;
         
     }
+    .skills-container-one {
+        top: 8%;
+    }
     .skills-container-two {
         width: 47%;
     }
@@ -159,6 +162,9 @@
         height: 83px;
         font-size: 14px;
     }
+    .online {
+        font-size: 28.5px;
+    }
     
 
    
@@ -166,11 +172,66 @@
     
 }
 @media screen and (max-width:769px  ) {
+    
     .column-first-container{
         width: auto;
         height: auto;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: row;
     }
-
+    .design-one{
+        display: none;
+    }
+    .design-two{
+        display: none;
+    }
+    .hello-heading {
+        font-size: 24px;
+    }
+    .hello-me {
+        font-size: 22px;
+    }
+    .hello-info {
+        font-size: 15px;
+    }
+    .HireMe {
+        padding: 6.3px 26px;
+    }
+    .Resume {
+        padding: 6.3px 21px;
+    }
+    .logos {
+        margin-top: 13%;
+    }
+    .online {
+        font-size: 31.5px;
+    }
+    .Photo {
+        height: 344px;
+    }
+    .skills-info{
+        height: 148vh;
+    }
+    .skills-container-one {
+        float: none;
+        width: 73%;
+        top: 3%;
+    }
+    .skills-container-two {
+        border: 2px solid;
+        width: 64%;
+        height: 33%;
+        top: 11%;
+        margin-left: 23%;
+    }
+    .Skills-box-one,.Skills-box-two,.Skills-box-three,.Skills-box-four {
+        width: 35%;
+        margin: 19px;
+    }
+    .card-black,.card-white{
+        width: 42px;
+        height: 42px;
+    }
+  
+  
 }
