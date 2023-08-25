@@ -1,3 +1,13 @@
+@keyframes slideBottom {
+    0%{
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
 @media screen and (max-width:991px  ) {
     .hamburger{
         display: block;
@@ -10,5 +20,157 @@
     .nav-links{
         display: none;
     }
+    .nav-links.active{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        position: relative;
+        background-color: rgba(255, 255, 255, 0.274);
+        width: 100%;
+        height: 32vh;
+        gap: 10px;
+        animation:slideBottom 1s ease forwards ;
+    }
+    li{
+        margin-left: 1.9%;
+    }
+    .Hire{
+        display: none;
+    }
+    .column-first-container{
+        position: relative;
+        top: 15%;
+    }
+    .left-side {
+        position: relative;
+        /* border: 2px solid black; */
+        float: left;
+        width: 40%;
+        margin: 0;
+        padding: 0;
+        height: auto;
+        left: 5%;
+        top: 17%;
     
+    }
+    .logo {
+        font-size: 26px;
+    }
+    .hello-heading {
+        font-size: 31px;
+    }
+    .hello-me {
+        font-size: 24px;
+    }
+    .hello-info{
+        font-size: 16px;
+    }
+    .HireMe {
+        padding: 6.5px 27px;
+    }
+    .Resume {
+        padding: 6.5px 25px;
+    }
+    .right-side {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            background-color: rgb(255, 184, 52);
+            border-radius: 50%;
+            width: 45%;
+            height: 68%;
+            left: 6%;
+            top: 7%;
+    }
+    .Photo {
+        position: relative;
+        left: 0%;
+        top: 1%;
+        width: 670px;
+        height: 436px;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+    .bxl-html5,.bxl-css3,.bxl-javascript,.bxl-react,.bxl-bootstrap{
+        font-size: 18px;
+        
+    }
+    .skills-container-two {
+        width: 47%;
+    }
+    .Skills-circle-black {
+        width: 45px;
+        height: 45px;
+    }
+    .Skills-circle-white {
+        width: 45px;
+        height: 45px;
+    }
+    .progress{
+        height: 10%;
+    }
+    .Skills-box-one{
+        width: 120px;
+    }
+    .Skills-box-two{
+        width: 120px;
+    }
+    .Skills-box-three{
+        width: 120px;
+    }
+    .Skills-box-four{
+        width: 120px;
+    }
+    .card{
+        width: 32%;
+    /* height: auto; */
+    top: 7%;
+    float: left;
+    font-size: 15px;
+
+    }
+    .info-img-container{
+        /* border: 2px solid red; */
+        width: 85%;
+        height: 35%;
+        top: 2%;
+        left: 9%;
+    }
+    .info-img-container-two{
+        /* border: 2px solid red; */
+        width: 85%;
+        height: 35%;
+        top: -3%;
+        left: 9%;
+    }
+    .You-Need {
+        font-size: 2.8rem;
+    }
+    .login-form input {
+        padding: 4px;
+        font-size: 14px;
+    }
+    .login-container {
+        bottom: 15%;
+    }
+    .textarea-info {
+        height: 83px;
+        font-size: 14px;
+    }
+    
+
+   
+ 
+    
+}
+@media screen and (max-width:769px  ) {
+    .column-first-container{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
 }
