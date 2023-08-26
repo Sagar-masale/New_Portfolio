@@ -245,7 +245,7 @@ margin-left: 3px;
 /* Style Skills */
 .skills-info{
     overflow: hidden;
-    /* display: none; */
+    display: none;
     position: relative;
     /* border: 2px solid red; */
     border-bottom: 1px solid gray;
@@ -402,8 +402,8 @@ margin-left: 3px;
 
 /* style work info */
 .Works-info-container{
-    display: none;
-    overflow: auto;
+    /* display: none; */
+    overflow: hidden;
     width: 100%;
     height: 130vh;
     position:relative;
@@ -483,9 +483,10 @@ margin-left: 3px;
 .Contact-info-container{
     /* border: 2px solid red; */
     display: none;
+    overflow: hidden;
     position: relative;
     width: 100%;
-    height: 90vh; 
+    height: 103vh; 
 }
 .Contact-Info-Left-Side{
         top: 12%;
@@ -570,7 +571,7 @@ margin-left: 3px;
   .End-Container{
     /* border: 2px solid rgb(170, 255, 0); */
     width: 100%;
-    height: 38vh;
+    height: 41vh;
     bottom: 0;
     position: absolute;
     display: flex;
