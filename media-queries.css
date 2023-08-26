@@ -139,7 +139,7 @@
         width: 85%;
         height: 35%;
         top: 2%;
-        left: 9%;
+        left: 8%;
     }
     .info-img-container-two{
         /* border: 2px solid red; */
@@ -147,6 +147,9 @@
         height: 35%;
         top: -3%;
         left: 9%;
+    }
+    .Works-info-container {
+        height: 123vh;
     }
     .You-Need {
         font-size: 2.8rem;
@@ -171,7 +174,7 @@
  
     
 }
-@media screen and (max-width:769px  ) {
+@media screen and (max-width:767px  ) {
     
     .column-first-container{
         width: auto;
@@ -232,6 +235,69 @@
         width: 42px;
         height: 42px;
     }
+    .Works-info-container {
+        height: auto;
+    }
+    .card {
+        width: 100%;
+    }
+    .card-title {
+        font-size: 18px;
+    }
+    .You-Need {
+        font-size: 2.3rem;
+    }
+    .right-arrow-end {
+        font-size: 32px;
+        right: 19%;
+    }
+    .login-form input {
+        font-size: 13px;
+    }
+    .textarea-info {
+        height: 69px;
+        font-size: 13px;
+    }
+    .login-form button {
+        padding: 8px;
+    }
   
   
+}
+@media screen and (max-width:479px  ) {
+    .column-first-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        border: 2px solid red;
+        top: 13px;
+    }
+    .logo {
+        font-size: 24px;
+    }
+    .right-side {
+        width: 225px;
+        left: -21%;
+    }
+    .Photo {
+        height: 225px;
+    }
+    .left-side {
+        width: 90%;
+        left: 0;
+    }
+    .hello-heading,.hello-me{
+        margin: 0;
+    }
+    .logos {
+        margin-top: 10%;
+    }
+    .skills-container-two {
+        width: 64%;
+        height: 31%;
+        top: 12%;
+        right: 4%;
+    }
+    .card {
+        width: 100%;
+    }
 }
