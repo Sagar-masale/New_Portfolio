@@ -38,7 +38,7 @@
 } */
 /* Style the front page */
 .front-page{
-    display: none;
+/*     display: none; */
     border: 2px solid red;
     width: 100%;
     height: 100vh;
@@ -237,7 +237,7 @@ margin-left: 3px;
 }
 .gap{
     overflow: hidden;
-    display: none;
+/*     display: none; */
     width: 100%;
     height: 6vh;
     background: linear-gradient(to right, #d5ffe9, #d1e7fa);
@@ -245,7 +245,7 @@ margin-left: 3px;
 /* Style Skills */
 .skills-info{
     overflow: hidden;
-    display: none;
+/*     display: none; */
     position: relative;
     /* border: 2px solid red; */
     border-bottom: 1px solid gray;
@@ -482,7 +482,7 @@ margin-left: 3px;
 /* Contact style */
 .Contact-info-container{
     /* border: 2px solid red; */
-    display: none;
+/*     display: none; */
     overflow: hidden;
     position: relative;
     width: 100%;
