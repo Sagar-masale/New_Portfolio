@@ -1,638 +1,257 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@700;800&display=swap');
-/* Reset default margins and paddings */
-*{
-    margin: 0;
-    padding: 0;
-}
-/* Keyframes animations */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="folio.css">
+    <link rel="stylesheet" href="media-queries.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+       <!-- Front-Page -->
+       <div class="front-page">
+        <!-- nav-bar -->
+    <nav class="navbar">
+        <div class="logo">Sagar Masale.</div>
+        <ul class="nav-links ">
+            <li><a href="#home" class="nav-names">HOME</a></li>
+            <li><a href="#about" class="nav-names">SKILLS</a></li>
+            <li><a href="#portfolio" class="nav-names">WORKS</a></li>
+            <li><a href="#portfolio" class="nav-names">RESUME</a></li>
+            <li><a href="#contact" class="nav-names">CONTACT</a></li>
+            <li><a href="#Hire" class="Hire">HIRE ME</a></li>
+            
+        </ul>
+        
+    </nav>
+   <a href="#" class="hamburger"> <span class="material-symbols-outlined" style="font-size: 33px;">
+    menu
+    </span></a>
 
-@keyframes slideBottom {
-    0%{
-        transform: translateY(-100px);
-        opacity: 0;
-    }
-    100%{
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-@keyframes slideTop {
-    0%{
-        transform: translateY(100px);
-        opacity: 0;
-    }
-    100%{
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-@keyframes slideRight {
-    0%{
-        transform: translateX(-300px);
-        opacity: 0;
-    }
-    100%{
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-/* @keyframes slideIn {
-    0%{
-        transform: translateY(20px);
-        opacity: 0;
-    }
-    100%{
-        transform: translateX(0);
-        opacity: 1;
-    }
-} */
-/* Style the front page */
-.front-page{
-    /* display: none; */
-    /* border: 2px solid red; */
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    background: linear-gradient(to right, #97ffc9, #aed9ff);
-}
+    <!-- nav-End -->
+    <!-- Home-Content-Left-Side -->
+    <div class="column-first-container">
+    <div class="home-content left-side">
+      
+        <h3 class="hello-heading">Hello, I'm Sagar Masale</h3><br>
+        <h3 class="hello-me">And I'm a <span class="multiple-text"></span></h3><br/>
+        <p class="hello-info">This is my official portfolio website to <br>showcase my all works related to web development.</p>
+       
+        <a href="#" class="HireMe">Hire Me </a>
+        <a href="#" class="Resume">Resume<i class='bx bx-download'></i> </a><br/>
+        <!-- logos -->
+        <div class="logos">
+        <a href="https://github.com/Sagar-masale" class="online-1 online"><i class='bx bxl-github'></i></a>
+        <a href="https://www.linkedin.com/in/sagar-masale-6004b3282/" class="online"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://www.instagram.com/its_sagar_27_/?igshid=ZDdkNTZiNTM%3D" class="online"><i class='bx bxl-instagram-alt' ></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61550536834752" class="online"><i class='bx bxl-facebook-circle' ></i></a>
+        <a href="#twitter" class="online"><i class='bx bxl-twitter' ></i></a>
+        </div>
+        <!-- End logos -->
 
-/* Style the navbar */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px;
-    animation: slideBottom 1s ease forwards;
-}
-.Hire{
-    background-color: black;
-    color:white;
-    display: inline-block;
-    padding: 8.5px 29px;
-    text-decoration: none;
-    border-radius: 5px;
-}
 
-/* Style the logo */
-.logo {
-    font-size: 28px;
-    font-weight: bold;
+    </div>
+    <!-- Home-Contetnt-Left-Side-End -->
+    <!-- Home-Content_Right-Side -->
+    <div class="home-content right-side">
+        <img src="My_photo.png" class="Photo">
+    </div>
+  </div>
+    <!-- right side side show -->
+    <div class="design-one"></div>
+    <div class="design-two"></div>    
+</div><!-- Front-Page-End -->
+
+<!-- .........Gap.............. -->
+<div class="gap"></div>
+<!-- .........Gap End.............. -->
+<!-- second page Skills container -->
+<div class="skills-info"> 
+    <h2 class="My-Skills-Heading" data-aos="zoom-in-up">My Skills</h2><div class="line" data-aos="zoom-in-up"></div>
+    <h4 class="skills-Here" data-aos="zoom-in-up">Here are my skills</h4><br>
+    <div class="skills-container-one" >
+        <i class='bx bxl-html5'> HTML</i>
+        <div class="progress"  data-aos="zoom-in" style="height: .9rem;" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-warning" style="width: 80%"></div>
+          </div> <br>
+          <i class='bx bxl-css3'> CSS</i>
+          <div class="progress" data-aos="zoom-in" style="height: .9rem;"  role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-warning" style="width: 65%"></div>
+          </div> <br>
+          <i class='bx bxl-javascript'> Javascript</i>
+          <div class="progress" data-aos="zoom-in" style="height: .9rem;"  role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-warning" style="width: 60%"></div>
+          </div> <br>
+          <i class='bx bxl-react'> React js</i>
+          <div class="progress" data-aos="zoom-in" style="height: .9rem;"  role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-warning" style="width: 10%"></div>
+          </div><br>
+          <i class='bx bxl-bootstrap' > Bootstrap</i>
+          <div class="progress" data-aos="zoom-in" style="height: .9rem;"  role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-warning" style="width: 70%"></div>
+          </div>
+          <!-- ........ -->
+    </div>
+    <div class="skills-container-two">
+        <div class="Skills-box-one" data-aos="zoom-in" >
+            <div class="Skills-circle-black" ><i class='bx bxl-php'></i></div><p class="Name-lang">php</p>
+        </div> 
+        <div class="Skills-box-two"  data-aos="zoom-in">
+            <div class="Skills-circle-white"><i class='bx bxl-nodejs'></i></div><p class="Name-lang">Node js</p>
+        </div>
+        <div class="Skills-box-three" data-aos="zoom-in">
+            <div class="Skills-circle-black"><i class='bx bxl-mongodb'></i></div><p class="Name-lang">MongoDB</p>
+        </div> 
+        <div class="Skills-box-four" data-aos="zoom-in" >
+            <div class="Skills-circle-white"><i class='bx bxl-c-plus-plus' ></i></div><p class="Name-lang">C++</p>
+        </div>
+    </div>  
+</div>
+<!-- Skills container end -->
+<!-- Works container -->
+<div class="Works-info-container" data-aos="zoom-in" >
+  
+    <h2 class="My-Skills-Heading">Works</h2><div class="line"></div>
+    <h4 class="skills-Here">Here are some of my works</h4><br>
+    <!-- <a href="#" class="click"><i class='bx bx-right-arrow-alt right-arrow-works'></i></a> -->
+    <div class="info-img-container"  data-aos="zoom-in">
+      <a href="https://sagar-masale.github.io/Cyber_Security/">
+        <div class="card card-one" >
+          <img src="cyber.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cyber Security</h5>
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          </div>
+        </div>
+
+      </a>
+  
+      <a href="https://sagar-masale.github.io/chake_love_score/">
+        <div class="card card-two">
+          <img src="love.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Love Score</h5>
+          </div>
+        </div>
+      </a>
+      <a href="https://sagar-masale.github.io/folio/">
+        <div class="card card-three" >
+          <img src="port.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Portfolio</h5>
+          </div>
+        </div>
+      </a>
+      
+</div>
+<div class="info-img-container-two"  data-aos="zoom-in">
+  <a href="#life">
+    <div class="card card-four">
+      <img src="life.jpg" class="card-img-top" alt="..." >
+      <div class="card-body">
+        <h5 class="card-title">Time Of Life</h5>
+        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+      </div>
+    </div>
+
+  </a>
+
+  <a href="#Dice">
+    <div class="card card-five">
+      <img src="Dice.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Dice Game</h5>
+      </div>
+    </div>
+  </a>
+  <a href="#Cal">
+    <div class="card card-six"  >
+      <img src="calculator.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Calculator</h5>
+      </div>
+    </div>
+  </a>
+  
+</div>
+
+</div>
+<!-- works page end -->
+
+<!-- Contact-Info_Start -->
+<div class="Contact-info-container">
+  <h2 class="My-Skills-Heading" data-aos="zoom-in-up">Contact</h2><div class="line" data-aos="zoom-in-up"></div>
+  <div class="Contact-Info-Left-Side">
+    <h1 class="You-Need" data-aos="zoom-in">You Need</h1>
+    <p class="You-Need-Info">Creating a website <br> leave a request</p> <i class='bx bx-right-arrow-alt right-arrow-end'></i> <i class='bx bx-right-arrow-alt right-arrow-end slide '></i>
+  </div> 
+  <!-- login side -->
+  <div class="login-container" data-aos="zoom-in">
+    <form class="login-form">
+      <input type="email" placeholder="eg example@gmail.com" required>
+      <input type="text" placeholder="eg sagar masale" required>
+      <textarea class="textarea-info" name="message" placeholder="Type your message here.." required min="5"  autocomplete="off"   ></textarea>
+      <button type="submit">Send <i class='bx bxs-send' ></i></button>
+    </form>
+  </div>
+
+  <div class="End-Container">
+    <div class="End-Column" >
+    <h1 class="You-Need Lets-Talk"data-aos="zoom-in" >Let's Talk</h1>
+    <div class="Talk-Icons" >
+      <i class='bx bxl-telegram'><br><p class="Icon-Names">Telegram</p></i>
+      <i class='bx bxl-whatsapp'><br><p class="Icon-Names">Whatsapp</p></i>
+      <i class='bx bxl-instagram-alt bxl-instagram-alt-two'><br><p class="Icon-Names">Instagram</p></i>
+    </div>
+  </div>
     
-    margin-left: 5%;
-}
+  </div>
 
-/* Style the navigation links */
-.nav-links {
-    /* border: 2px solid red; */
-    list-style: none;
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
-    color: black;
-}
 
-.nav-links li {
-    margin-right: 50px;
-}
-.nav-names{
-    color: black;
-}
 
-.nav-links a {
-    text-decoration: none;
-    transition: color 0.3s;  
-}
-.hamburger{
-    display: none;
 
-}
 
-.nav-links a:hover {
-    color: #f39c12;
-}
-.left-side{
-    position: absolute;
-    /* border: 2px solid black; */
-    float: left;
-    width: 40%;
-    height: auto;
-    margin-left:72px;
-    margin-top: 11%;
-}
-.hello-heading{
-    font-size: 35px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    animation: slideTop 1s ease forwards;
-}
-.hello-me{
-    font-size: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.multiple-text{
-    color: rgb(255, 184, 52);
-}
-/* style Hire_Me */
-.HireMe{
-    background-color: black;
-    color:white;
-    display: inline-block;
-    padding: 8.5px 29px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top:6%;
-    animation: slideTop 1s ease forwards;
-}
-.HireMe:hover{
-    color: black;
-    background-color: white;
-    transition: .8s;
-}
-.Resume{
-  
-    align-content: center;
-    background-color: rgb(255, 255, 255);
-    color:rgb(0, 0, 0);
-    display: inline-block;
-    padding: 8px 24.6px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top:6%;
-    margin-left: 3%;
-    animation: slideTop 1.2s ease forwards;
-}
-.Resume:hover{
-    transition: .8s;
-    color: white;
-    background-color: black;
-}
-.bx-download{ 
-margin-left: 3px;
-}
-/* logos style */
-.logos{
-    margin-top: 8%;
-}
-.logos a{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    background: transparent;
+
+
+
+</div>
+
+
+
+
+<script>
+var clickHam=document.querySelector(".hamburger");
+var hoverNav =document.querySelector(".nav-links");
+clickHam.addEventListener('click',()=>{
+  hoverNav.classList.toggle('active')
+})
+</script>
+<script>
+  let slideBar=document.querySelector(".slide");
+  let slideBarMove=document.querySelector(".slide");
+  slideBar.addEventListener('click',()=>{
+    slideBarMove.classList.toggle("right-arrow-end-slide")
+  })
+</script>
+
+<script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+<script src="script.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init(
+    {
+      offset: 100,
+      duration: 700,
+    }
+  );
+</script>
     
-    border-radius: 50%;
-   
-    text-decoration: none;
-    transition: .5s ease;
-    animation: slideTop 1s ease forwards;
-}
-.logos a:hover{
-    
-    color: #c9c9c9;
-    box-shadow: 0 0 20px  #000000;;
-}
-
-.online-1{
-    color: black;
-    font-size: 25.5px;
-}
-.online{
-    color: black;
-    font-size: 33.5px;
-    margin-left: 2.5%;
-}
-/* Home_content right-Side */
-.right-side{
-    display: flex;
-    position: absolute;
-    float: left;
-    background-color: rgb(255, 184, 52);
-    border-radius: 50%;
-    width: 450px;
-    height: 450px;
-    left: 54%;
-    top: 18%;
-    z-index: 1;
-    overflow: hidden;
-    rotate: -4deg;
-    animation: slideTop 1s ease forwards;
-
-}
-/* style a photo */
-.Photo{
-    position: absolute;
-    left: -28%;
-    top: -4%;
-    width: 714px;
-    height:470px;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-}
-.design-one{
-    position: absolute;
-    background-color: #394956;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    right: 17%;
-    top: 17%;
-    z-index: 0;
-}
-.design-two{
-   position: absolute;
-    background-color: #394956;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    left: 49%;
-    top: 24%;
-}
-.gap{
-    overflow: hidden;
-    display: none;
-    width: 100%;
-    height: 6vh;
-    background: linear-gradient(to right, #d5ffe9, #d1e7fa);
-}
-/* Style Skills */
-.skills-info{
-    overflow: hidden;
-    /* display: none; */
-    position: relative;
-    /* border: 2px solid red; */
-    border-bottom: 1px solid gray;
-    width: 100%;
-    height: 90vh; 
-}
-/* ............ */
-.My-Skills-Heading{
-    width: fit-content;
-    margin-left: 5%;
-    margin-top: 5%;
-    color: #969696;
-    font-family: 'Montserrat', sans-serif;
-}
-.line{
-    left: 12%;
-    width: 81%;
-    opacity: 80%;
-    border-radius: 2px;
-    position: relative;
-    border: 0.2px solid #969696;
-    
-}
-.skills-Here{
-    width: fit-content;
-    left: 5.2%;
-    top: 3%;
-    font-size: 13px;
-    color: #969696;
-    position: relative;
-    font-family: sans-serif;
-
-}
-.skills-container-one{
-    width: 30%;
-    height: fit-content;
-    top: 10%;
-    margin-left: 14%;
-    float: left;
-    display:table;
-    position:relative;
-}
-.bxl-html5{
-    font-size: 20px;
-    
-}
-.bxl-css3{
-    font-size: 20px;
-}
-.bxl-javascript{
-    font-size: 20px;
-}
-.bxl-react{
-    font-size: 20px;
-}
-.bxl-bootstrap{
-    font-size: 20px;
-}
-/* ............... */
-/* Skills right side style */
-.skills-container-two {
-    width: fit-content;
-    height: 56%;
-    top: 4%;
-    margin-left: 7%;
-    float: left;
-    position: relative;
-}
-.Skills-box-one,.Skills-box-three{
-    width: 32%;
-    height: 37%;
-    margin: 20px;
-    float: left;
-    color: black;
-    margin-left: 54px;
-    background-color: rgb(255, 255, 255);
-}
-.Skills-box-one:hover , .Skills-box-three:hover{
-    transition: .3s;
-    border-bottom: 2px solid rgb(0, 0, 0);
-}
-.Skills-box-two,.Skills-box-four{
-    width: 32%;
-    height: 37%;
-    float: left;
-    margin: 20px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0); 
-}
-.Skills-box-two:hover , .Skills-box-four:hover{
-    border-bottom: 2px solid rgb(255, 255, 255);
-}
-/* .Skills-box-three{
-    width: 32%;
-    height: 37%;
-    float: left;
-    color: rgb(0, 0, 0);
-    margin: 20px;
-    margin-left: 54px;
-    background-color: rgb(255, 255, 255);
-} */
-/* .Skills-box-four{
-    width: 32%;
-    height: 37%;
-    float: left;
-    color: #ffffff;
-    margin: 20px;
-    background-color: rgb(0, 0, 0);
-} */
-.Skills-box-one, .Skills-box-two, .Skills-box-three, .Skills-box-four{
-    font-size: 36px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 6px;
-    align-items: center;
-    justify-content: center;
-    box-shadow: -10px 15px 15px 0px rgb(193, 193, 193);
-}
-.bxl-php, .bxl-mongodb{
-    color: rgb(252 252 252);
-}
-.bxl-nodejs, .bxl-c-plus-plus{
-    color: rgb(0, 0, 0);
-}
-.Name-lang{
-    margin-top: 5%;
-    font-size: 12.5px;
-    font-family: 'Montserrat', sans-serif;
-}
-.Skills-circle-black{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-top: 10%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    background-color: rgb(0, 0, 0);
-}
-.Skills-circle-white{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-top: 10%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    background-color: rgb(255, 255, 255);
-}
-/* End skills */
-
-
-/* style work info */
-.Works-info-container{
-    /* display: none; */
-    overflow: hidden;
-    width: 100%;
-    height: 130vh;
-    position:relative;
-    border-bottom: 1px solid gray;
-    transition: 1.5s;
-}
-
-.info-img-container{
-    /* border: 2px solid red; */
-    width: 80%;
-    height: 35%;
-    top: 4%;
-    left: 11.4%;
-    position: relative;
-    transition: 2s;
-}
-.info-img-container-two{
-    /* border: 2px solid red; */
-    width: 80%;
-    height: 35%;
-    top: 4%;
-    left: 11.4%;
-    position: relative;
-    transition: 2s;
-}
-
-
-.card{
-    width: 33%;
-    top: 7%;
-    float: left;
-    font-size: 20px;
-    margin-top: 2%;
-    padding: 2% 2% 0 2%;
-    transition: .3s;
-    /* animation: slideIn 1s ease forwards; */
-}
-.card:hover{
-    padding: 1% 1% 0 1%;
-    margin-top: .5%;
-    transition: .3s ease-in-out;
-    box-shadow: 0px 10px 10px 0px rgb(138, 138, 138);
-}
-.card-one{
-    background-image: url(img1.jpg);
-    background-position: center;
-    background-size: cover;
-}
-.card-two{
-    background-image: url(img2.jpg);
-    background-position: center;
-    background-size: cover;
-
-  
-}
-.card-three{
-    background-image: url(img3.jpg);
-    background-position: center;
-    background-size: cover;
-  
-}
-.card-four{
-    background: linear-gradient(to right, #ffabd7, #959194);
-}
-.card-five{
-    background: linear-gradient(to right, #ffffff, #797378);
-}
-.card-six{
-    background: linear-gradient(to right, #ffffff, #ffffff, #ffc49a);
-}
-.card-title{
-    font-size: 20px;
-}
-/* works end */
-
-/* Contact style */
-.Contact-info-container{
-    /* border: 2px solid red; */
-    /* display: none; */
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    height: 103vh; 
-}
-.Contact-Info-Left-Side{
-        top: 12%;
-        left: 14%;
-        position: relative;
-        /* border: 2px solid rgb(0, 89, 255); */
-        width: 35%;
-        height: 20%;
-}
-.You-Need{
-    font-size: 3.8rem;
-}
-.right-arrow-end{
-    font-size: 40px;
-    border-radius: 3px;
-    border: 1px solid gray;
-    color: rgb(255, 179, 0);
-    position: absolute;
-    right: 26%;
-    top: 43%;
-    transition: 1s;
-}
-.right-arrow-end-slide{
-    translate: 1s;
-    border: none;
-    right: 0;
-    
-}
-/* login style */
-
-
-.login-container {
-    bottom: 19%;
-    left: 50%;
-    position: relative;
-    /* border: 2px solid red; */
-    width: 38%;
-    height: auto;
-    background-color: #fff;
-    border-radius: 10px;
-    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); */
-  }
-  
-  .login-container h1 {
-    text-align: center;
-    color: #333;
-  }
-  
-  .login-form input {
-    width: 100%;
-    padding: 10px;
-    margin-top: 1%;
-    margin-bottom: 10px;
-    outline: none;
-    border: 1px solid #ccc;
-    box-shadow: 0px 0px 10px rgba(71, 71, 71, 0.281); 
-    border-radius: 5px;
-  }
-  
-  .login-form button {
-    width: 100%;
-    padding: 10px;
-    margin-top: 1.2%;
-    background-color: rgb(255, 179, 0);
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .login-form button:hover {
-    background-color:rgb(255, 197, 60);
-  }
-  .bxs-send{
-    rotate: -50deg;
-  }
-  .textarea-info{
-    margin-top: 1%;
-    width: 100%;
-    height: 90px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    outline: none;
-    box-shadow: 0px 0px 10px rgba(72, 72, 72, 0.281); 
-    
-    
-  }
-  .End-Container{
-    /* border: 2px solid rgb(170, 255, 0); */
-    width: 100%;
-    height: 41vh;
-    bottom: 0;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    background-color:  rgb(255, 200, 0);
-  }
-  .Lets-Talk{
-    font-size: 3rem;
-    margin-top:10%;
-  }
-  .End-Column{
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-  }
-  .Talk-Icons{
-    /* border: 2px solid rgb(255, 0, 43); */
-    width: auto;
-    height: 30%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    top: 20%;
-  }
-  
-  .bxl-telegram,.bxl-instagram-alt-two{
-    padding: 5%;
-    font-size: 28px;
-  }
-  .bxl-whatsapp{
-    padding: 5%;
-    margin: 5%;
-    font-size: 28px;
-  }
-  .bxl-telegram{
-    margin-right: 20%;
-  }
-  .bxl-instagram-alt-two{
-    margin-left: 20%;
-  }
-  .Icon-Names{
-    color: rgba(255, 255, 255, 0.662);
-    font-size: 13px;
-  }
-  
+</body>
+</html>
