@@ -146,7 +146,7 @@
         width: 85%;
         height: 35%;
         top: -3%;
-        left: 9%;
+        left: 8%;
     }
     .Works-info-container {
         height: 123vh;
@@ -221,7 +221,6 @@
         top: 3%;
     }
     .skills-container-two {
-        border: 2px solid;
         width: 64%;
         height: 33%;
         top: 11%;
@@ -268,7 +267,7 @@
     .column-first-container {
         flex-direction: column-reverse;
         align-items: center;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         top: 13px;
     }
     .logo {
@@ -300,4 +299,95 @@
     .card {
         width: 100%;
     }
+  
+    .Contact-Info-Left-Side {
+        /* border: 2px solid red; */
+        top: 3%;
+        left: 18%;
+        width: 68%;
+    }
+    .You-Need {
+        font-size: 2.1rem;
+    }
+    .You-Need-Info{
+        font-size: 16px;
+    }
+    .right-arrow-end {
+        rotate: 90deg;
+    }
+    .login-container {
+        top: 10px;
+        left: 17%;
+        width: 70%;
+       
+    }
+    .End-Container {
+        height: 35vh;
+    }
+    .Talk-Icons {
+        top: 17%;
+    }
+    form input {
+        font-size: 12.5px;
+    }
 }
+@media screen and (max-width:401px  ){
+    right-side {
+        top: -7px;
+        left: -19%;
+    }
+    .skills-container-two {
+        width: 65%;
+        height: fit-content;
+        top: 7%;
+        right: 7%;
+    }
+    .Skills-box-one, .Skills-box-two, .Skills-box-three, .Skills-box-four {
+        width: 100%;
+        gap: 10px;
+        padding: 0;
+        margin: 8px;
+    }
+    .skills-info{
+      height: 170vh;
+    }
+    .card {
+        left: 8%;
+        width: 85%;
+    }
+    .You-Need {
+        font-size: 2rem;
+    }
+    .Contact-Info-Left-Side {
+        /* border: 2px solid red; */
+        top: 2%;
+        left: 18%;
+        width: 68%;
+    }
+    .login-container {
+        top: 10px;
+        left: 15%;
+        width: 72%;
+    }
+    .login-form input {
+        font-size: 12px;
+    }
+    .login-form button {
+        margin-top: 12px;
+        top: 2px;
+        padding: 6px;
+        font-size: 14px;
+    }
+    .textarea-info {
+        font-size: 12px;
+    }
+    .Contact-info-container {
+        height: 100vh;
+    }
+    .End-Container {
+        height: 32vh;
+    }
+    .Lets-Talk{
+        margin-left: 12px;
+    }
+} 
