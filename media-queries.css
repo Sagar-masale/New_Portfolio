@@ -299,6 +299,13 @@
     .card {
         width: 100%;
     }
+     .Works-info-container {
+        border: none;
+    }
+    .Contact-info-container {
+        border-top: 1px solid gray;
+        margin-top: 10%;
+    }
   
     .Contact-Info-Left-Side {
         /* border: 2px solid red; */
@@ -323,6 +330,9 @@
     }
     .End-Container {
         height: 35vh;
+    }
+      .Lets-Talk{
+        margin-left: 15px;
     }
     .Talk-Icons {
         top: 17%;
@@ -388,6 +398,6 @@
         height: 32vh;
     }
     .Lets-Talk{
-        margin-left: 12px;
+        margin-left: 16px;
     }
 } 
