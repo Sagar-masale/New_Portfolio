@@ -277,7 +277,6 @@ margin-left: 3px;
     border-radius: 2px;
     position: relative;
     border: 0.2px solid #969696;
-    
 }
 .skills-Here{
     width: fit-content;
@@ -287,7 +286,6 @@ margin-left: 3px;
     color: #969696;
     position: relative;
     font-family: sans-serif;
-
 }
 .skills-container-one{
     width: 30%;
@@ -439,8 +437,6 @@ margin-left: 3px;
     position: relative;
     transition: 2s;
 }
-
-
 .card{
     width: 33%;
     top: 7%;
@@ -466,14 +462,11 @@ margin-left: 3px;
     background-image: url(img2.jpg);
     background-position: center;
     background-size: cover;
-
-  
 }
 .card-three{
     background-image: url(img3.jpg);
     background-position: center;
     background-size: cover;
-  
 }
 .card-four{
     background: linear-gradient(to right, #ffabd7, #959194);
@@ -523,11 +516,8 @@ margin-left: 3px;
     translate: 1s;
     border: none;
     right: 0;
-    
 }
 /* login style */
-
-
 .login-container {
     bottom: 19%;
     left: 50%;
@@ -539,7 +529,6 @@ margin-left: 3px;
     border-radius: 10px;
     /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); */
   }
-  
   .login-container h1 {
     text-align: center;
     color: #333;
@@ -582,8 +571,6 @@ margin-left: 3px;
     border-radius: 5px;
     outline: none;
     box-shadow: 0px 0px 10px rgba(72, 72, 72, 0.281); 
-    
-    
   }
   .End-Container{
     /* border: 2px solid rgb(170, 255, 0); */
@@ -615,7 +602,6 @@ margin-left: 3px;
     position: relative;
     top: 20%;
   }
-  
   .bxl-telegram,.bxl-instagram-alt-two{
     padding: 5%;
     font-size: 28px;
