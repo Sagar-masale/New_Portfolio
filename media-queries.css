@@ -299,7 +299,7 @@
     .card {
         width: 100%;
     }
-     .Works-info-container {
+    .Works-info-container {
         border: none;
     }
     .Contact-info-container {
@@ -331,7 +331,7 @@
     .End-Container {
         height: 35vh;
     }
-      .Lets-Talk{
+    .Lets-Talk{
         margin-left: 15px;
     }
     .Talk-Icons {
@@ -398,8 +398,6 @@
         height: 32vh;
     }
     .Lets-Talk{
-          width: 100%;
-    border: 2px solid;
-    margin-left: 11%;
+        margin-left: 13px;
     }
 } 
