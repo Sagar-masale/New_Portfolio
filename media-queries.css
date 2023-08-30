@@ -168,11 +168,10 @@
     .online {
         font-size: 28.5px;
     }
-    
-
-   
- 
-    
+    .Lets-Talk{
+    margin-left: 3%;
+    width: 100%;
+    }
 }
 @media screen and (max-width:767px  ) {
     
